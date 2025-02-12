@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="compPatch_debugCancel" xml:space="preserve">
-    <value>PAtch bypass annullata dall'utente.</value>
+    <value>Installazione patch bypass annullata dall'utente.</value>
   </data>
   <data name="compPatch_debugNotRemovableDrive" xml:space="preserve">
-    <value>L'utente ha tentato di selezionare un'unità non rimovibile.</value>
+    <value>L'utente ha selezionato un'unità non rimovibile.</value>
   </data>
   <data name="compPatch_debugNoUSBDrive" xml:space="preserve">
-    <value>Nessuna unità USB selezionata per la patch.</value>
+    <value>Nessuna unità USB selezionata per l'installazione della patch.</value>
   </data>
   <data name="compPatch_msgFailedEx" xml:space="preserve">
     <value>Impossibile applicare la patch bypass:</value>
@@ -151,7 +151,7 @@
     <value>Posso eseguire l'aggiornamento a Windows 11?</value>
   </data>
   <data name="ctl_linkVote" xml:space="preserve">
-    <value>L'aggiornamento ha funzionato?</value>
+    <value>L'aggiornamento ha funzionato? Segnalacelo!</value>
   </data>
   <data name="ctl_statusLabel" xml:space="preserve">
     <value>Trascina e rilascia il file ISO di Windows per patcharlo ed installare con hardware non supportato (aggiornamento inplace).</value>
@@ -160,7 +160,7 @@
     <value>R: puoi scaricare la versione ISO più recente dal sito web ufficiale di Microsoft o usare il downloader di Fido.</value>
   </data>
   <data name="faq_a2" xml:space="preserve">
-    <value>R: se hai installato correttamnte Windows 11 e hai risparmiato un po 'di soldi, non esitare a lasciare qualcosa come ringraziamento qui.</value>
+    <value>R: se hai installato correttamente Windows 11 e hai risparmiato un po' di soldi, non esitare a lasciare qualcosa come ringraziamento qui.</value>
   </data>
   <data name="faq_a2Link" xml:space="preserve">
     <value>Clic qui per donare e dimostrare il tuo supporto.</value>
@@ -172,13 +172,13 @@
     <value>R: controlla i messaggi di errore e segnalali in GitHub.</value>
   </data>
   <data name="faq_a5" xml:space="preserve">
-    <value>R: Sì, Microsoft ha lasciato aperto un backdoor. Questo metodo sfrutta una funzione del processo di configurazione di Windows 11 che usa la variante di Windows Server dell'installazione. A differenza della normale configurazione di Windows 11, questa variante salta la maggior parte dei controlli di compatibilità hardware.</value>
+    <value>R: sì, Microsoft ha lasciato aperto un backdoor. Questo metodo sfrutta una funzione del processo di configurazione di Windows 11 che usa la variante di Windows Server dell'installazione. A differenza della normale configurazione di Windows 11, questa variante salta la maggior parte dei controlli di compatibilità hardware.</value>
   </data>
   <data name="faq_a6" xml:space="preserve">
     <value>R: secondo Microsoft, dovresti buttare via il PC. Io ti suggerisco di installarci Linux e di lasciar stare Windows.</value>
   </data>
   <data name="faq_a7" xml:space="preserve">
-    <value>R: Lo sviluppatore è Belim, noto anche come Buildbybel, che ha contribuito molto al codice alla comunità di Windows.</value>
+    <value>R: lo sviluppatore è Belim, noto anche come Buildbybel, che ha contribuito molto al codice alla comunità di Windows.</value>
   </data>
   <data name="faq_a7Link" xml:space="preserve">
     <value>Fai clic qui per saperne di più sui lavori dello sviluppatore.</value>
@@ -187,13 +187,13 @@
     <value>Scarica tramite Fido (consigliato)</value>
   </data>
   <data name="faq_downloadMS" xml:space="preserve">
-    <value>Sito Microsoft</value>
+    <value>Download dal sito Microsoft</value>
   </data>
   <data name="faq_header" xml:space="preserve">
     <value>Domande frequenti (FAQ)</value>
   </data>
   <data name="faq_q1" xml:space="preserve">
-    <value>D: dove posso scaricare la versione ISO più recente di Windows 11?</value>
+    <value>D: dove posso scaricare il file ISO della versione più recente di Windows 11?</value>
   </data>
   <data name="faq_q2" xml:space="preserve">
     <value>D: come posso supportare lo sviluppatore?</value>
