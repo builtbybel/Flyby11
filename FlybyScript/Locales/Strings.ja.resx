@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -148,7 +148,7 @@
     <value>ISO に互換性パッチを適用する (クリーンインストール)</value>
   </data>
   <data name="ctl_linkCiuv" xml:space="preserve">
-    <value>Windows 11 にアップグレードしますか？</value>
+    <value>Windows 11 にアップグレード可能ですか？</value>
   </data>
   <data name="ctl_linkVote" xml:space="preserve">
     <value>アップグレードは成功しましたか？</value>
@@ -214,19 +214,19 @@
     <value>Q: 開発者は誰ですか？</value>
   </data>
   <data name="ciuView_lblPtAns" xml:space="preserve">
-    <value>1. デバイスは現在サポートされているバージョンの Windows 10 を実行しています。デバイスが現在サポートされている Windows 10 を実行していない場合は、サポートされている Windows 10 にアップグレードしてください。</value>
+    <value>1. デバイスで現在サポートされているバージョンの Windows 10 を実行している状態である。サポートしていない Windows 10 を実行している場合は、サポートされている Windows 10 にアップグレードしてください。</value>
   </data>
   <data name="ciuView_lblPtAns2" xml:space="preserve">
-    <value>2. このデバイス</value>
+    <value>2. デバイスで</value>
   </data>
   <data name="ciuView_lblPtAns3" xml:space="preserve">
-    <value>1. ダウンロードして実行する</value>
+    <value>1. ダウンロードで確認</value>
   </data>
   <data name="ciuView_lblPtAns4" xml:space="preserve">
-    <value>2. 次の Windows Update ショートカットを選択して「更新プログラムの確認」ボタンを選択します:</value>
+    <value>2. 次に Windows Update を選択後に「更新プログラムのチェック」ボタンを選択します:</value>
   </data>
   <data name="ciuView_lblPtAns5" xml:space="preserve">
-    <value>3. 使用しているデバイスは Windows 11 の公式要件を満たしていませんか？互換性パッチを適用して、Windows Update 経由でのインプレース アップグレードを有効化することができます。</value>
+    <value>3. 使用しているデバイスは Windows 11 の要件を満たしていませんか？互換性パッチを適用して、Windows Update 経由でのインプレース アップグレードを有効化することができます。</value>
   </data>
   <data name="ciuView_lblPtHdr" xml:space="preserve">
     <value>既存の Windows 10 デバイスは、次の条件を満たしている場合に Windows 11 にアップグレードできます:</value>
@@ -235,10 +235,10 @@
     <value>Windows 10 デバイスが Windows 11 にアップグレードできるかどうかを確認するには、次のいずれかのオプションに従ってください。</value>
   </data>
   <data name="ciuView_linkPtAns2" xml:space="preserve">
-    <value>Windows 11 を実行するための最小ハードウェア仕様である。</value>
+    <value>Windows 11 を実行するための最小ハードウェア仕様を確認する。</value>
   </data>
   <data name="ciuView_linkPtAns3" xml:space="preserve">
-    <value>WhyNotWin11 アプリは、デバイスが最小のシステム要件を満たしているかどうかを確認できます</value>
+    <value>WhyNotWin11 で最小のシステム要件を満たしているか確認できます。</value>
   </data>
   <data name="msg_InstallReady" xml:space="preserve">
     <value>Windows 11 のインストールを続行できます。セットアップ ウィンドウの指示に従ってください。</value>
@@ -270,12 +270,16 @@
   </data>
   <data name="_debugStatusRunning" xml:space="preserve">
     <value>もうすぐです！セットアップを準備しています...</value>
+    <comment>インストール</comment>
   </data>
   <data name="_debugStatusSetupFileNotFound" xml:space="preserve">
     <value>セットアップファイルが見つかりません</value>
     <comment>マウント中</comment>
   </data>
+  <data name="ctl_linkSelectComputer" xml:space="preserve">
+    <value>コンピューターから ISO を選択</value>
+  </data>
   <data name="msgClosing" xml:space="preserve">
-    <value />
+    <value>私が開発したアプリをご利用いただきありがとうございます！\n\n私は Windows 10 から Windows 11 へのアップグレードを支援するために空き時間を利用してこのアプリを開発しました。Microsoft のハードウェア要件では通常サポートされない PC でもアップグレードできます。\n\nこのアプリは、新しいコンピューターの購入を回避や不要な電子機器廃棄物の削減に積極的に貢献します。\n\n私は開発費やサポート費用、プロジェクトに対して料金を一切請求しません。\nただし、このアプリは非常に包括的で多くの機能を提供し、より多くの機能を提供するためにより多くのサポートを必要とするため、可能であれば任意の寄付を検討していただければ幸いです。少額でも構いません。\n\nもちろんですが、寄付をしたいという希望があることと余裕がある場合に限ります。\n\n今すぐ PayPal で寄付しますか？</value>
   </data>
 </root>
