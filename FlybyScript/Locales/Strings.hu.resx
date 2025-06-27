@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="compPatch_debugCancel" xml:space="preserve">
+    <value>A felhasználó megszakította a javítás megkerülését.</value>
+  </data>
+	<data name="compPatch_debugNotRemovableDrive" xml:space="preserve">
+    <value>A felhasználó megpróbált kiválasztani egy nem cserélhető meghajtót.</value>
+  </data>
+	<data name="compPatch_debugNoUSBDrive" xml:space="preserve">
+    <value>Nincs USB-meghajtó kiválasztva a javításhoz.</value>
+  </data>
+	<data name="compPatch_msgFailedEx" xml:space="preserve">
+    <value>Nem sikerült alkalmazni a bypass javítást:</value>
+  </data>
+	<data name="compPatch_msgNotRemovableDrive" xml:space="preserve">
+    <value>A kiválasztott elérési út nem cserélhető meghajtó. Válasszon egy USB-meghajtót.</value>
+  </data>
+	<data name="compPatch_msgSelectDrive" xml:space="preserve">
+    <value>Válassza ki a Windows 11 telepítőfájljait tartalmazó USB-meghajtót.\nEz a funkció kompatibilitási javítást ad hozzá bizonyos rendszerkövetelmények megkerüléséhez.\nKompatibilis bármely eszközzel előkészített meghajtókkal, beleértve a Rufust is. Győződjön meg arról, hogy a meghajtó készen áll!</value>
+  </data>
+	<data name="compPatch_msgSelectDriveConfirm" xml:space="preserve">
+    <value>Ez alkalmazza a kompatibilitási megkerülési beállításokat a kiválasztott USB-meghajtón. Folytassuk?</value>
+  </data>
+	<data name="compPatch_msgSuccess" xml:space="preserve">
+    <value>A bypass tapasz sikeresen alkalmazva!</value>
+  </data>
+	<data name="ctl_FormTitle" xml:space="preserve">
+    <value>Flyby11 frissítési segéd</value>
+  </data>
+	<data name="ctl_inkCompPatch" xml:space="preserve">
+    <value>Alkalmazza a kompatibilitási javítást az ISO -ra (tiszta telepítés)</value>
+  </data>
+	<data name="ctl_linkCiuv" xml:space="preserve">
+    <value>Frissíthetek Windows 11-re?</value>
+  </data>
+	<data name="ctl_linkVote" xml:space="preserve">
+    <value>Működött a frissítés?</value>
+  </data>
+	<data name="ctl_statusLabel" xml:space="preserve">
+    <value>Húzza a Windows 11 ISO-t a javításhoz és a nem támogatott hardverre való telepítéshez (Helyi frissítés).</value>
+  </data>
+	<data name="faq_a1" xml:space="preserve">
+    <value>V: Letöltheti a legújabb ISO-t a Microsoft hivatalos webhelyéről, vagy használhatja a Fido Downloadert.</value>
+  </data>
+	<data name="faq_a2" xml:space="preserve">
+    <value>V: Ha sikeresen telepítette a Windows 11-et, és pénzt takarított meg, nyugodtan hagyjon itt egy kis köszönetet.</value>
+  </data>
+	<data name="faq_a2Link" xml:space="preserve">
+    <value>Kattintson ide, hogy adományozzon és kifejezze támogatását.</value>
+  </data>
+	<data name="faq_a3" xml:space="preserve">
+    <value>V: Az ISO csatlakoztatása után a beállítási folyamat a háttérben fut. Elindul a Windows telepítője, amely végigvezeti Önt a Windows 11 gépre történő telepítéséhez szükséges lépéseken.</value>
+  </data>
+	<data name="faq_a4" xml:space="preserve">
+    <value>V: Kérjük, ellenőrizze a hibaüzeneteket, és jelentse a GitHubon.</value>
+  </data>
+	<data name="faq_a5" xml:space="preserve">
+    <value>V: Igen, a Microsoft nyitva hagyott egy hátsó ajtót. Ez a módszer a Windows 11 telepítési folyamatának egy olyan funkcióját használja, amely a telepítés Windows Server-változatát használja. A szokásos Windows 11 beállítással ellentétben ez a változat kihagyja a legtöbb hardverkompatibilitási ellenőrzést.</value>
+  </data>
+	<data name="faq_a6" xml:space="preserve">
+    <value>V: A Microsoft szerint ki kell dobnia a számítógépét. Azt javaslom, hogy telepítse rá a Linuxot, és távolodjon el a Windowstól.</value>
+  </data>
+	<data name="faq_a7" xml:space="preserve">
+    <value>V: A fejlesztő Belim, más néven Builtbybel, aki sok kóddal járult hozzá a Windows közösséghez.</value>
+  </data>
+	<data name="faq_a7Link" xml:space="preserve">
+    <value>Kattintson ide, ha többet szeretne megtudni a fejlesztő munkájáról.</value>
+  </data>
+	<data name="faq_downloadFido" xml:space="preserve">
+    <value>Letöltés a Fido-n keresztül (ajánlott)</value>
+  </data>
+	<data name="faq_downloadMS" xml:space="preserve">
+    <value>Microsoft webhely</value>
+  </data>
+	<data name="faq_header" xml:space="preserve">
+    <value>Gyakran Ismételt Kérdések (GYIK)</value>
+  </data>
+	<data name="faq_q1" xml:space="preserve">
+    <value>K: Hol szerezhetem be a legújabb Windows 11 ISO-t?</value>
+  </data>
+	<data name="faq_q2" xml:space="preserve">
+    <value>K: Hogyan támogathatom a fejlesztőt?</value>
+  </data>
+	<data name="faq_q3" xml:space="preserve">
+    <value>K: Hogyan működik a beállítási folyamat az ISO csatlakoztatása után?</value>
+  </data>
+	<data name="faq_q4" xml:space="preserve">
+    <value>K: Mi a teendő, ha problémákat tapasztalok a telepítés során?</value>
+  </data>
+	<data name="faq_q5" xml:space="preserve">
+    <value>K: Legális ennek a módszernek a használata?</value>
+  </data>
+	<data name="faq_q6" xml:space="preserve">
+    <value>K: Milyen alternatívák vannak, ha a számítógépem nem támogatott?</value>
+  </data>
+	<data name="faq_q7" xml:space="preserve">
+    <value>K: Ki a fejlesztő?</value>
+  </data>
+	<data name="ciuView_lblPtAns" xml:space="preserve">
+    <value>1. Az eszközön a Windows 10 jelenleg támogatott verziója fut. Ha az eszközön jelenleg nem a Windows 10 támogatott verziója fut, frissítsen a Windows 10 támogatott verziójára.</value>
+  </data>
+	<data name="ciuView_lblPtAns2" xml:space="preserve">
+    <value>2. Az eszköz megfelel</value>
+  </data>
+	<data name="ciuView_lblPtAns3" xml:space="preserve">
+    <value>1. Töltse le és futtassa a</value>
+  </data>
+	<data name="ciuView_lblPtAns4" xml:space="preserve">
+    <value>2. Válassza ki a következő Windows Update parancsikont, majd válassza a Frissítések keresése gombot:</value>
+  </data>
+	<data name="ciuView_lblPtAns5" xml:space="preserve">
+    <value>3. Eszköze nem felel meg a Windows 11 hivatalos követelményeinek? Kompatibilitási javítás alkalmazásával engedélyezheti a helyben történő frissítést a Windows Update szolgáltatáson keresztül.</value>
+  </data>
+	<data name="ciuView_lblPtHdr" xml:space="preserve">
+    <value>Egy meglévő Windows 10-es eszköz frissíthető Windows 11-re, ha megfelel az alábbi feltételeknek:</value>
+  </data>
+	<data name="ciuView_lblPtHdr2" xml:space="preserve">
+    <value>Ha meg szeretné tudni, hogy egy Windows 10-es eszköz jogosult-e a Windows 11-re való frissítésre, kövesse az alábbi lehetőségek egyikét:</value>
+  </data>
+	<data name="ciuView_linkPtAns2" xml:space="preserve">
+    <value>a Windows 11 futtatásához szükséges minimális hardverspecifikációk.</value>
+  </data>
+	<data name="ciuView_linkPtAns3" xml:space="preserve">
+    <value>WhyNotWin11 alkalmazás annak megerősítéséhez, hogy a készülék megfelel a minimális rendszerkövetelményeknek</value>
+  </data>
+	<data name="msg_InstallReady" xml:space="preserve">
+    <value>A Windows 11 telepítése most folytatható. Kérjük, kövesse a beállítási ablakban található utasításokat.</value>
+    <comment>Install</comment>
+  </data>
+	<data name="_debugInstallReady" xml:space="preserve">
+    <value>Készen áll a Windows 11 telepítésére nem támogatott hardverre! Hagyja figyelmen kívül a' Windows Server ' parancsot; minden készen áll!</value>
+    <comment>Install</comment>
+  </data>
+	<data name="_debugInstallRunElevated" xml:space="preserve">
+    <value>A telepítési folyamat indítása emelt jogosultságokkal...</value>
+    <comment>Install</comment>
+  </data>
+	<data name="_debugStatusHandleIsoEx" xml:space="preserve">
+    <value>Hoppá! Valami elromlott:</value>
+    <comment>Mounting</comment>
+  </data>
+	<data name="_debugStatusMounting" xml:space="preserve">
+    <value>Az ISO csatlakoztatása... Kitartás!</value>
+    <comment>Mounting</comment>
+  </data>
+	<data name="_debugStatusMountingFailed" xml:space="preserve">
+    <value>Nem sikerült csatlakoztatni az ISO-t. Kérjük, próbálja újra.</value>
+    <comment>Mounting</comment>
+  </data>
+	<data name="_debugStatusMountingSuccess" xml:space="preserve">
+    <value>ISO sikeresen csatlakoztatva! Lássunk hozzá a Windows 11 elkészítéséhez!</value>
+    <comment>Mounting</comment>
+  </data>
+	<data name="_debugStatusRunning" xml:space="preserve">
+    <value>Majdnem kész! Előkészítjük a beállítást...</value>
+    <comment>Install</comment>
+  </data>
+	<data name="_debugStatusSetupFileNotFound" xml:space="preserve">
+    <value>A telepítőfájl nem található a(z)</value>
+    <comment>Mounting</comment>
+  </data>
+	<data name="ctl_linkSelectComputer" xml:space="preserve">
+    <value>Kiválasztás a számítógépről</value>
+  </data>
+	<data name="msgClosing" xml:space="preserve">
+    <value>Thank you for using my app!\n\nI developed this application in my free time to help you upgrade from Windows 10 to Windows 11 – even on PCs that, according to Microsoft's hardware requirements, would normally not be supported.\n\nMy app helps you avoid purchasing a new computer and actively contributes to reducing unnecessary electronic waste.\n\nNormally, I do not charge anything for my projects – neither for development nor for support.\nHowever, since this app is significantly more comprehensive, offers more features, and requires more support, I would be grateful if you would consider making a small voluntary donation, if you are able to.\n\nOf course, only if you want to and can afford it.\n\nWould you like to donate on PayPal now?</value>
+  </data>
+</root>
