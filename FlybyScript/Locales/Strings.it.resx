@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -242,44 +242,44 @@
   </data>
   <data name="msg_InstallReady" xml:space="preserve">
     <value>L'installazione di Windows 11 può ora procedere. Segui le istruzioni nella finestra di configurazione.</value>
-    <comment>Installa</comment>
+    <comment>Install</comment>
   </data>
   <data name="_debugInstallReady" xml:space="preserve">
     <value>Sei pronto per installare Windows 11 con hardware non supportato! Ignora il prompt "Windows Server"; tutto è pronto!</value>
-    <comment>Installa</comment>
+    <comment>Install</comment>
   </data>
   <data name="_debugInstallRunElevated" xml:space="preserve">
     <value>Avvio processo configurazione con privilegi elevati ...</value>
-    <comment>Installa</comment>
+    <comment>Install</comment>
   </data>
   <data name="_debugStatusHandleIsoEx" xml:space="preserve">
     <value>Oops! Qualcosa è andato storto:</value>
-    <comment>Montaggio</comment>
+    <comment>Mounting</comment>
   </data>
   <data name="_debugStatusMounting" xml:space="preserve">
     <value>Montaggio file...</value>
-    <comment>Montaggio</comment>
+    <comment>Mounting</comment>
   </data>
   <data name="_debugStatusMountingFailed" xml:space="preserve">
     <value>Impossibile montare il file ISO. Riprova.</value>
-    <comment>Montaggio</comment>
+    <comment>Mounting</comment>
   </data>
   <data name="_debugStatusMountingSuccess" xml:space="preserve">
     <value>File ISO montato correttamente! Procediamo con l'installazione di Windows 11!</value>
-    <comment>Montaggio</comment>
+    <comment>Mounting</comment>
   </data>
   <data name="_debugStatusRunning" xml:space="preserve">
     <value>Ci siamo quasi! Preparazione installazione ...</value>
-    <comment>Installazione</comment>
+    <comment>Install</comment>
   </data>
   <data name="_debugStatusSetupFileNotFound" xml:space="preserve">
     <value>File configurazione non trovato in</value>
-    <comment>Montaggio</comment>
+    <comment>Mounting</comment>
   </data>
   <data name="ctl_linkSelectComputer" xml:space="preserve">
     <value>Seleziona dal computer</value>
   </data>
   <data name="msgClosing" xml:space="preserve">
-    <value />
+    <value>Grazie per aver usato questa app!\n\nHo sviluppato questa app nel mio tempo libero per aiutarti ad aggiornare da Windows 10 a Windows 11 - anche su PC che, secondo i requisiti hardware di Microsoft, normalmente non sarebbero supportati.\nQuesta app ti aiuta ad evitare di acquistare un nuovo computer e contribuisce attivamente ad evitare di produrre rifiuti elettronici inutili.\nNormalmnte non chiedo nulla per i miei progetti - né per lo sviluppo né per il supporto.\nQuesta app è significativamente completa, offre tante funzionalità e richiede più supporto, ti sarei grato se considereresti di fare una piccola donazione volontaria, se sei in grado di farlo.\n\nOvviamente , solo se vuoi e puoi permettertelo.\nVuoi donare un piccolo contributo con Paypal?</value>
   </data>
 </root>
